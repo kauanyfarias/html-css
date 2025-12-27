@@ -11,6 +11,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         thead, tfoot{
             background-color: gray;
@@ -22,6 +23,15 @@
         }
         .num{
             text-align: right;
+        }
+        tr:nth-child(even){
+            background-color: lightgrey;
+        }
+        thead>tr>th{
+            position: sticky;
+            top: 0;
+            background-color: gray;
+            top: -1px;;
         }
     </style>
 </head>
@@ -95,5 +105,10 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quos ipsum, ab, est temporibus perspiciatis perferendis quae accusamus quisquam repudiandae, possimus minima? Vitae, neque perferendis non officia eius maxime veritatis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aliquam animi delectus asperiores, dolores, quibusdam ea provident iste quos nihil est quidem facilis quas itaque veniam commodi ab placeat quae! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus impedit nesciunt omnis blanditiis architecto fuga nam culpa aperiam est consequuntur aliquid, eum inventore, nobis delectus ratione. Dolorem, architecto. Nesciunt, id? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste soluta error, numquam commodi necessitatibus deleniti dolores aperiam laborum odio voluptatibus est laudantium consequatur at similique nisi doloremque porro! Laboriosam, nulla!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem vero nostrum, distinctio mollitia totam asperiores perferendis eligendi autem molestiae delectus vitae necessitatibus! Tempora, beatae atque? Provident sequi nulla hic a?
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo iste explicabo nostrum tempora ipsum omnis cupiditate repellat dolor, harum dolores minima velit sapiente consequuntur temporibus officiis quam est perspiciatis nesciunt!
+    </p>
 </body>
 </html>
